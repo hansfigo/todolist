@@ -1,0 +1,192 @@
+body {
+  margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar{
+  max-width: 100;
+  height:105px ;
+  background: #16ABF8;
+}
+
+.navbar h3{
+  position: absolute;
+width: 229px;
+height: 36px;
+left: 220px;
+top: 8px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.section{
+  position: absolute;
+width: 145px;
+height: 54px;
+left: 220px;
+top: 148px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 54px;
+/* identical to box height */
+
+
+color: #111111;
+}
+
+.input-container .add-btn{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 21px 13px 14px;
+  gap: 6px;
+  
+  position: absolute;
+  width: 159px;
+  height: 54px;
+  left: 1061px;
+  top: 154px;
+  
+  background: #16ABF8;
+  border-radius: 45px;
+  cursor: pointer;
+  color: #ffff;
+}
+
+.input-container .input-box-todo{
+  height: 208px;
+width: 299px;
+left: 393px;
+top: 47px;
+border-radius: 0px;
+position: absolute;
+left: 51%;
+right: 9%;
+top: 45%;
+bottom: 47%;
+display: flex;
+text-align: center;
+align-items: center;
+
+background: #F4F4F4;
+
+}
+
+.hero p{
+  position: absolute;
+right: 440px;
+top: 530px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+
+text-align: center;
+color: #555555;
+letter-spacing: 0em;
+
+
+}
+
+.card-container{
+  height: 234px;
+  width: 235px;
+  left: 220px;
+  top: 257px;
+  border-radius: 12px;
+  
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    margin-bottom: 8px;
+    display: flex;
+    gap: 20px;
+}
+
+/* .card-item {
+  height: 234px;
+width: 235px;
+left: 220px;
+top: 257px;
+border-radius: 12px;
+
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  margin-bottom: 8px;
+  display: flex;
+  gap: 20px;
+
+} */
+
+.list-item {
+  height: 234px;
+  width: 234px;
+  border-radius: nullpx;
+  font-family: Poppins;
+font-size: 18px;
+font-weight: 700;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+list-style-type: none;
+color: #111111;
+}
+
+/* .icons {
+  display: flex;
+  align-items: center;
+  height: 4px;
+width: 6px;
+left: 9px;
+top: 3px;
+border-radius: 0px;
+
+} */
+
+/* .icon-delete {
+  font-size: 18px;
+  color: #888888;
+  cursor: pointer;
+ 
+  bottom: 0;
+  left: 0;
+  cursor: pointer;
+} */
+
+
+ .date{
+  font-family: Poppins;
+font-size: 14px;
+font-weight: 500;
+line-height: 21px;
+letter-spacing: 0em;
+
+height: 21px;
+width: 99px;
+left: 247px;
+top: 705px;
+border-radius: undefinedpx;
+color: #888888;
+}
