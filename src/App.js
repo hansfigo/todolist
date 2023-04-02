@@ -5,39 +5,31 @@ import TodoInput from './component/TodoInput';
 import Todolist from './component/TodoList';
 
 
-import React, { useEffect, useState } from 'react';
+import React, {  useState } from 'react';
 
 
 function App() {
 
   const [listTodo,setListTodo]=useState([]);
 
-  useEffect(()=>{
-    const email = "amindailylife1976@gmail.com"
-    const url = "https://todo.api.devcode.gethired.id/activity-groups?email="+email
+  // useEffect(()=>{
+  //   const email = "amindailylife1976@gmail.com"
+  //   const url = "https://todo.api.devcode.gethired.id/activity-groups?email="+email
 
-    const getData = async () => {
-      try {
-        const res = await fetch(url);
-        const data = await res.json();
-        setListTodo(data["data"]);
-      } catch (error) {
-        console.error(error);
-      }
-    };
-    
+  //   const getData = async ()=>{
+  //    const data =  await fetch(url).then((res) => res.json())
+  //         .then((data) => setListTodo(data["data"]))
+  //   }
 
-    getData()
+  //   getData()
     
 
     
-  },[])
+  // },[])
 
   let addList = (inputText)=>{
-    if(inputText !== ''){
-      const newItem = { title: inputText };
-      setListTodo([...listTodo, newItem]);
-    }
+    if(inputText!=='')
+      setListTodo([...listTodo,inputText]);
   }
   
   const deleteListItem = (key)=>{
